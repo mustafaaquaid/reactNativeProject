@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 const Home = () => {
   return (
     <View style={styles.container}>
-      <Text>Open up!!!! App</Text>
+      <Text>YAHA SE START KERNA</Text>
       <StatusBar style="auto" />
     </View>
   );
