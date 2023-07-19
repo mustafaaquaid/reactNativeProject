@@ -1,12 +1,16 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import RootIndex from "./src/navigation";
 
-export default function App() {
+const Home = () => {
   return (
-    <RootIndex />
+    <View style={styles.container}>
+      <Text>Open up!!!! App</Text>
+      <StatusBar style="auto" />
+    </View>
   );
 }
+
+export default Home
 
 const styles = StyleSheet.create({
   container: {
